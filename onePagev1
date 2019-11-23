@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF=8">
+		<meta name="viewport" content="width=device-widht, initial-scale=1">
+		<title>ONE PAGE</title>
+		<style>
+		body, html{
+				margin: 0;
+				padding: 0;
+				background: #F5F5F5;
+		}
+		
+		.main{
+				max-width: 1200px;
+				margin: 0 auto;
+				overflow: hidden;
+				background: lightgrey;
+		}
+		
+		.content{
+				float: left;
+				width: 100%;
+				height: 720px;
+				margin-right: -210px;
+		}
+		
+		.content-inner{
+				margin-right: 117px;
+				margin-left: 117px;
+		}
+		
+		.middlebar{
+				background: #F8F8FF;
+				width: 100%;
+				position: center;
+				padding: 13%;
+				margin-top: 17%;			
+		}
+		
+		.menu{
+				width: 100%;
+				background: #494D58;
+				font-family: Arial;
+		}
+		
+		.menu ul{
+				margin: 0;
+				padding: 0;
+				text-align: center;
+		}
+		
+		.menu ul li{
+				display: inline-block;
+				*display: inline;
+				zoom: 1;
+				margin: 0;
+				padding: 0;	
+		}
+		
+		.menu ul li a{
+				display: block;
+				padding: 20px;
+				color: #fff;
+				text-decoration: none;
+				color: #F8F8FF;
+				font-family: Courier;
+				font-size: 24px;
+		}
+		
+		.footer{
+				width: 100%;
+				background: #28303C;
+				text-align: center;
+				height: 90px;
+		}
+
+		@media screen and (max-width: 700px){
+				.content-inner, .content{
+						float: none;
+						width: 100%;
+						margin-right: 0;
+				}
+		}
+		
+		.h1mid{
+				color: #AFB8BE;
+				margin-left: 310px;
+				margin-top: 24%;
+				font-family: monospace;
+				}
+		
+		.flip-card {
+				background-color: transparent;
+				width: 200px;
+				height: 200px;
+				perspective: 1000px;
+				margin-left: 40%;
+		}
+
+		.flip-card-inner {
+				position: relative;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				transition: transform 0.6s;
+				transform-style: preserve-3d;
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		}
+
+		.flip-card:hover .flip-card-inner {
+				transform: rotateY(180deg);
+		}
+
+		.flip-card-front, .flip-card-back {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				backface-visibility: hidden;
+		}
+
+		.flip-card-front {
+				background-color: #bbb;
+				color: black;
+		}
+
+		.flip-card-back {
+				background-color: #2980b9;
+				color: #F8F8FF;
+				transform: rotateY(180deg);
+				font-family: monospace;
+				font-size: 17px;
+		}
+		
+		</style>
+
+		</head>
+	<body>
+		<div class="main">
+				<div class="menu">
+						<ul>
+							<li> <a href="#"> PROGRAMANDO </a> </li>
+							<li> <a href="#"> GOSTOSINHO </a> </li>
+						</ul>
+				</div>
+				
+				<div class="content">
+				<div class="content-inner">
+							<h1 class="h1mid">WHY START WITH THE HARDEST</h1>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							 <img src="https://www.urbanarts.com.br/imagens/produtos/212266/0/Ampliada/sm-ponto-de-interrogacao.jpg" alt="Avatar" style="width:200px;height:200px;">
+						</div>
+						<div class="flip-card-back">
+							<h1>CLOSEGAME</h1>
+							<p>BECAUSE IT'S MORE FUN</p>
+							<p>is ins't</p>
+							<p>should I give up</p>
+						</div>
+					</div>
+				</div>
+								
+				</div>
+					
+				</div>
+				
+				<div class="middlebar"></div>
+					
+				<br style="clear:both">
+					
+				<div class="footer">
+					<a class="me" href="https://www.acheiquesabiajogar.top/" target="_balnk"> <img id="logo" src="https://lh3.googleusercontent.com/-zH2s5aP9nhs/XUWz0JBRE9I/AAAAAAAAAR4/kdBvbQpuYZQEsS-6HaHntCpJB3r-kZIOACEwYBhgL/w100-h90-p/footer.png" title="logo by @BuilderLuca"></a><br>
+
+				</div>
+			</div>
+	</body>
+</html>
