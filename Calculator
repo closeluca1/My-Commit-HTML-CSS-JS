@@ -3,6 +3,7 @@
 		<script>
 			function insert(num){
 				document.form.textview.value = document.form.textview.value+num
+				document.old.old.value = document.form.textview.value
 			}
 			
 			function equal(){
@@ -18,9 +19,9 @@
 			
 			function back(){
 				var exp = document.form.textview.value;
-				document.form.textview.value = exp.substring(0,exp.length-1)
-				
+				document.form.textview.value = exp.substring(0,exp.length-1)				
 			}
+
 			
 		</script>
 		<style>
@@ -65,16 +66,31 @@
 			color: white;
 			margin-left: 10%;
 			}
+			
+			.old{
+				font-size: 10px;
+				left: 57.7%;
+				position: absolute;
+				top: 34px;
+				width: 90;
+				color: black;
+				border: none;
+				
+				
+			}
 		</style>
 	</head>
 	<body>
 		<div class="bg"></div>
 		<div class="main">
-		<div class="me">
+		<!-- <div class="me">
 		<p>COMMIT: HTML, CSS, JS </p>
-		</div>
+		</div> -->
+					<form name="old">
+						<input class="old" name="old">
+					</form>
 					<form name="form">
-						<input class="textview" name="textview">
+						<input class="textview" name="textview">						
 					</form>
 					<table>
 						<tr>
@@ -103,7 +119,7 @@
 						</tr>
 						<tr>
 							<td colspan=2><input class="button" style="width:110" type="button" value="0" onclick="insert(0)"></td>
-							<td><input class="button" type="button" value="." onclick="insert(.)"></td>
+							<td><input class="button" type="button" value="." onclick="insert('.')"></td>
 						</tr>
 					</table>
 				</div>
