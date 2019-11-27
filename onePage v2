@@ -1,0 +1,180 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF=8">
+		<title> não tem</title>
+		
+		<style>
+				body{
+						font-family: Arial, sans-serif;
+						background-color: #F5F5F5;
+						color: rgba(0,0,0,1);
+				}
+				div#interface{
+						width: 900px;
+						background-color: #F5F5F5;
+						margin: -10px auto 0px auto;
+						box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+						padding: 10px;
+						position: relative;
+				}
+				p{
+						text-align: justify;
+						text-indent: 50px;
+				}
+				h1{
+						font-family: monospace;
+				}
+				header#titulo{
+						background-color: #494D58;
+						margin-top: -35px;
+						margin-bottom: 10px;
+						padding: 10px;
+				}
+				header#titulo h1{
+						display: block;
+						font-size: 30pt;
+						color: #F8F8FF;
+						text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+						text-align: center;
+						margin-bottom: 5px;
+				}
+				section#corpo{
+						display: block;
+						width: 500px;
+						float: left;
+						border-right: 1px solid #28303C;
+						padding: 15px;
+				}
+				aside#lateral{
+						display: block;
+						width: 350px;
+						float: right;
+						background-color: #F8F8FF;
+						padding: 5px;
+						marging-top: 10px;
+						box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5);
+				}
+				aside#lateral h1{
+						font-size: 20pt;
+						color: #494D58;
+						margin-top: 0px;
+				}
+				aside#lateral h2{
+						background-color: #494D58;
+						font-size: 17pt;
+						color: #F8F8FF;
+						padding: 2px;
+						
+				}
+				aside#lateral p{
+						color: #494D58;
+				}
+				div#caixa{
+						width: 100%;
+						height: 200px;
+						background-color: #F8F8FF;
+						margin-top: 25%;
+						margin-bottom: 10px;
+				}
+				aside#esqueda{
+						display: block;
+						float: left;
+						margin-left: 25%;
+						margin-top: 7%;
+				}
+				aside#direita{
+						display: block;
+						float: right;
+				}
+				.flip-card{
+						background-color: transparent;
+						width: 200px;
+						height: 200px;
+						perspective: 1000p;
+						margin-right: 88px;
+						margin-top: 6.5px;
+				}
+				.flip-card-inner{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						text-align: center;
+						transition: transform 0.6s;
+						transform-style: preserve-3d;
+						box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+				}
+				.flip-card:hover .flip-card-inner{
+						transform: rotateY(180deg);
+				}
+				.flip-card-front, .flip-card-back{
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						backface-visibility: hidden;
+				}
+				.flip-card-front{
+						background-color: #494D58;
+						color: white;
+				}
+				.flip-card-back{
+						transform: rotateY(180deg);
+						font-family: monospace;
+						font-size: 25pt;
+				}
+				footer#rodape{
+						clear: both;
+						text-align: center;
+						padding: 15px;
+						color: #F8F8FF;
+						background-color: #28303C;						
+				}
+				
+		</style>
+	</head>
+<body>
+<!-- 
+template: Patrick Lucas M
+twitter: @BuilderLuca
+Site: acheiquesabiajogar.top-->
+		<div id="interface">
+				<header id="titulo">
+					<h1>PRATICANDO HTML5 e CSS3</h1>
+				</header>
+		<section id="corpo">
+				<h1> Testando conhecimendo</h1>
+				<p> Praticando conhecimento em HTML5 e CSS3 que foi adquirido nas aulas do, Curso em Vídeo, com o professor, Gustavo Guanabara. O curso ensina sintaxe e semântica não só das duas tecnologias mas também o básico do JavaScript para aplicar no front-end, porem esta página unica não usa desta ultima tecnologia.</p>
+				
+		</section>
+		<aside id="lateral">
+				<h1>Desenvolvido por</h1>
+				<h2>Patrick Lucas M.</h2>
+				<p>Estudante de desenvolvimento web, <i>front-end</i>, com foco em CSS, por gostar de estilo e automação, esta sempre praticando criação de interfaces.</p>
+		</aside>
+		<div id="caixa">
+			<aside id="esqueda">
+				<h1>TECNOLOGIA</h1>
+			</aside>
+			<aside id="direita">
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+								<img src="https://www.urbanarts.com.br/imagens/produtos/212266/0/Ampliada/sm-ponto-de-interrogacao.jpg" alt="Interrogation Point" style="width:200px;height:200px;">
+						</div>
+							<div class="flip-card-back">
+									<h1>HTML5<br> e CSS3</h1>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</div>
+		<footer id="rodape">
+		&copy 2020 — by Patrick Lucas<br>
+		<a href="https://www.acheiquesabiajogar.top/" target="_balnk"> <img id="logo" src="https://lh3.googleusercontent.com/-zH2s5aP9nhs/XUWz0JBRE9I/AAAAAAAAAR4/kdBvbQpuYZQEsS-6HaHntCpJB3r-kZIOACEwYBhgL/w100-h90-p/footer.png" alt="logo Achei Que Sabia Jogar" title="logo by @BuilderLuca"></a><br>
+		</footer>
+		</div>
+</body>
+</html>
