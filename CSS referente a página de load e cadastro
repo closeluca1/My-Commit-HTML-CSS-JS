@@ -8,10 +8,10 @@ Site: acheiquesabiajogar.top */
 			body{
 					margin: 0;
 					background: linear-gradient(to right, #20568C, #057296, #20568C);
-					/* url da imagem linha https://uploaddeimagens.com.br/imagens/linhas-png-7e963ada-50cf-40e2-8507-f0f2f25d3dd2 */
 
 			}			
 			div#container{
+	/* url da imagem linha https://uploaddeimagens.com.br/imagens/linhas-png-7e963ada-50cf-40e2-8507-f0f2f25d3dd2 */
 					background: url("linhas.png") no-repeat center;
 					width: 100vw;
 					height: 100vh;
