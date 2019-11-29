@@ -1,0 +1,62 @@
+/* essa página de css é referente
+as páginas: login e cadastro que estão 
+aqui neste repositório */
+@charset UTF-8;
+/* template: Patrick Lucas M
+twitter: @BuilderLuca
+Site: acheiquesabiajogar.top */
+			body{
+					margin: 0;
+					background: linear-gradient(to right, #20568C, #057296, #20568C);
+
+			}			
+			div#container{
+					background: url("linhas.png") no-repeat center;
+					width: 100vw;
+					height: 100vh;
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					align-items: center;
+			}
+			a{
+					text-decoration: none;
+					color: blue;
+			}
+			div#boxtop{
+					position: relative;
+					background-color: #FFF9FF;
+					width: 100vw;
+					height: auto;
+					border-bottom: 1px solid #374163;
+					border-top: 1px solid #374163;
+			}
+			div#boxtop p{
+					display: inline-block;
+					font-family: monospace;
+					padding-left: 10px;
+					font-size: 10pt;
+					color: black;
+			}
+			span#empresa{
+					margin-left: 2%;
+					opacity: .5;
+			}
+			div#boxbottom{
+					height: auto;
+					position: relative;
+					background-color: #378CA8;
+			}
+			footer#rodape p{
+					font-family: monospace;
+					margin-top: 10px;
+					font-size: 9pt;
+			}
+			footer#rodape{
+					position: absolute;
+					bottom: 0;
+					width: 100vw;
+					height: 100px;
+					background-color: #378CA8;
+					text-align: center;
+			}
