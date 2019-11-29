@@ -1,0 +1,203 @@
+<!-- precisa do aquivo css referente 
+a essa página para poder funcionar o rodapé -->
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>CADASTRO</title>
+	<style>
+			div#box{
+					width: 800px;
+					height: 540px;
+					background-color: #9FC6C7;
+					border-radius: 0 0 20% 30px;
+					
+			}
+			div#barra{
+					text-align: center;
+					position: relative;
+					display: flex;
+					margin-left: 25%;
+					width: 50%;
+					flex-direction: row;
+					justify-content: center;
+					background-color: #DA463C;
+			}
+			.circulo{
+					position: auto;
+					border-radius: 50%;
+					display: flex;
+					width: 17px;
+					height: 17px;
+					margin-top: 6.5%;
+					background-color: #ECEDF1;
+			}
+			div#barra h1{
+					position: auto;
+					font-family: monospace;
+					display: inline-block;
+					color: #FFF9FF;
+					padding: 0 20px 0 22px;
+			}
+			.circulo2{
+					position: auto;
+					border-radius: 50%;
+					display: inline-block;
+					width: 17px;
+					height: 17px;
+					background-color: #ECEDF1;
+					margin-top: 6.5%;
+			}
+			div#cadastro{
+					text-align: center;
+					position: relative;
+					display: table-cell;
+					float: center;
+					width: 20%;
+					flex-direction: row;
+					justify-content: center;
+			}
+			
+			.date input{
+					outline: none;
+					width: 300px;
+					height: 32px;
+					border: none;
+					font-family: monospace;
+					text-indent: 35%;
+					background-color: #FFF9FF;
+					border-radius: 0 0 50px 50px;
+			}
+			.date:hover h2{
+					opacity: 0;
+			}
+			.date h2{
+					font-family: monospace;
+					position: relative;
+					opacity: .5;
+			}
+			.name input{
+					outline: none;
+					width: 300px;
+					height: 30px;
+					border: none;
+					font-family: monospace;
+					text-indent: 31%;
+					background-color: #FFF9FF;
+					border-radius: 0 0 50px 0;
+			}
+			.name:hover h2{
+					opacity: 0;
+			}
+			.name h2{
+					font-family: monospace;
+					position: relative;
+					opacity: .5;
+			}			
+			.email input{
+					outline: none;
+					width: 300px;
+					height: 30px;
+					border: none;
+					font-family: monospace;
+					text-indent: 31%;
+					
+			}
+			.email:hover h2{
+					opacity: 0;
+			}
+			.email h2{
+					font-family: monospace;
+					position: relative;
+					opacity: .5;
+			}
+			.senha input{
+					outline: none;
+					width: 300px;
+					height: 30px;
+					border: none;
+					font-family: monospace;
+					text-indent: 31%;
+			}
+			.senha h2{
+					font-family: monospace;
+					position: relative;
+					opacity: .5;
+			}
+			.senha:hover h2{
+					opacity: 0;
+			}
+			.continue{
+					position: relative;
+					font-family: monospace;
+					display: inline-block;
+					font-size: 8pt;
+			}
+			.back{
+					position: relative;
+					font-family: monospace;
+					display: inline-block;
+					font-size: 8pt;
+			}
+			.continue, .back{
+					padding: 2% 4% 0 4%;
+			}
+	</style>
+</head>
+<!--
+template: Patrick Lucas M
+twitter: @BuilderLuca
+Site: acheiquesabiajogar.top -->
+<body>
+		<div id="container">
+				<div id="box">					
+						<div id="barra">
+							<div class="circulo">
+							</div>
+							<h1>MAKE YOUR ACCOUNT</h1>
+							<div class="circulo2">
+							</div>
+						</div>					
+						<div id="cadastro">
+							<div class="date">
+								<h2>BIRTH DATE</h2>
+								<input type="date" min="2002-01-01" required>
+							</div>
+							<div class="name">
+								<h2>NICK NAME</h2>
+								<input type="text" maxlength="16">
+							</div>
+							<div class="email">
+								<h2>EMAIL</h2>
+								<input type="email">
+							</div>
+							<div class="senha">
+								<h2>PASSWORD</h2>
+								<input type="password" maxlength="14">
+							</div>
+							<div class="continue">
+								<h1><a href="">CONTINUE</a></h1>
+							</div>
+							<div class="back">
+								<h1><a href="login.html">GoBACK</a></h1>
+							</div>
+						</div>
+				</div>	
+						<footer id="rodape">
+							<div id="boxtop">
+							<P>ATENDIMENTO 0000-0000<P>
+							<p>TERMOS</p>
+							<p>SUPORTE<p>
+							<p>SOBRE NÓS</p>
+							<span id="empresa"><p>&copy 2020 NOME DA SUA EMPRESA</p></span>
+							</div>
+							<div id="boxbottom">
+							<p>NOME DA EMPRESA / CNPJ:00.000.000/0000-00 / ENDEREÇO / EMAIL@EMPRESA.COM</p>
+							<p>Mapa do site</p>
+							</div>
+				</footer>
+		</div>
+</body>
+</html>
