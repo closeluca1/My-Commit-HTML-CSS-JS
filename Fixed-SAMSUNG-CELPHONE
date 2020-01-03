@@ -1,0 +1,164 @@
+<DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/transpass" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gagliostro" type="text/css"/>
+		
+		<style>
+			*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 20px;
+	background-color: #eee7e7;
+}
+.borderF{
+	background-color: #080808;
+	width: 300px;
+	height: 600px;
+	border-radius: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.borderI{
+	background-color: #5c5959;
+	width: 295px;
+	height: 595px;
+	border-radius: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.borderM{
+	background-color: #110f0f;
+	width: 290px;
+	height: 590px;
+	border-radius: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.borderM h1{
+	font-family: 'BebasNeueRegular';
+	font-weight: 100;
+	font-style: normal;
+	background-color: #110f0f;
+	color: #d5d5d5;
+	position: absolute;
+	top: 40px;
+}
+.sem{
+	position: absolute;
+	background-color: black;
+	width: 3px;
+	height: 35px;
+	top: 15%;
+	left: 57.5%;
+}
+.screen{
+	position: relative;
+	display: flex;
+	align-items: baseline;
+	background: linear-gradient(210deg, #103373, #34a4bb, #588eee);
+	width: 285px;
+	height: 470px;
+	border-radius: 1%;
+	border: 1px solid black;
+	margin-left: .33%;
+}
+
+.screen h2{
+	position: relative;
+	top: 17%;
+	left: 42%;
+	color: white;
+	font-family: 'CagliostroRegular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 50pt;
+}
+.screen h3{
+	position: relative;
+	top: 30%;
+	left: 25%;
+	color: white;
+	font-family: 'CagliostroRegular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 50pt;
+}
+.screen p{
+	position: relative;
+	top: 40%;
+	justify-content: center;
+	color: white;
+	font-family: 'TranspassRegular';
+	font-weight: 580;
+	font-style: normal;
+}
+.buttonE1{
+	position: absolute;
+	background-color: #d5d5d5;
+	width: 15px;
+	height: 2px;
+	bottom: -6%;
+	left: 18%;
+}
+.buttonE2{
+	position: absolute;
+	background-color: #d5d5d5;
+	width: 15px;
+	height: 2px;
+	bottom: -7%;
+	left: 18%;
+}
+.buttonMid{
+	position: absolute;
+	background-color: #110f0f;
+	width: 70px;
+	height: 25px;
+	bottom: -9.5%;
+	left: 38%;
+	border-radius: 30px;
+	border: 2px solid #d5d5d5;
+}
+.buttonE3{
+	position: absolute;
+	background-color: #d5d5d5;
+	width: 15px;
+	height: 2px;
+	bottom: -6.5%;
+	left: 78%;
+	border: 1px solid #d5d5d5;
+}
+		</style>
+	</head>
+	<body>
+		<div class="borderF">
+			<div class="borderI">
+				<div class="borderM">
+					<h1>SAMSUNG</h1>
+						<div class="screen">
+							<h2>12</h2>
+							<h3>12</h3>
+							<p>SUN, APRIL 7</p>
+							<div class="buttonE1">
+							</div>
+							<div class="buttonE2">
+							</div>
+							<div class="buttonMid">
+							</div>
+							<div class="buttonE3">
+							</div>
+						</div>
+							<div class="sem">
+							</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
