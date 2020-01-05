@@ -1,0 +1,229 @@
+<DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="estilo/estyle1.css">
+		<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+      <style>
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 20px;
+	margin-left: 10%;
+	background-color: #eee7e7;
+}
+.upsom{
+	position: relative;
+	width: 3px;
+	height: 35px;
+	top: 180px;
+	left: -3px;
+	background: black;
+}
+.downsom{
+	position: relative;
+	width: 3px;
+	height: 35px;
+	top: 195px;
+	left: -3px;
+	background: black;
+}
+.offb{
+	position: relative;
+	width: 3px;
+	height: 35px;
+	top: 165px;
+	left: 300px;
+	background: black;
+}
+.a1{
+	width: 300px;
+	height: 550px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	background: black;
+}
+.a2{
+	width: 295px;
+	height: 545px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	background: gray;
+}
+.a3{
+	width: 288px;
+	height: 538px;
+	border-radius: 30px;
+	background: black;
+}
+.cam{
+	position: relative;
+	width: 10px;
+	height: 10px;
+	top: 15px;
+	left: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	background: grey;
+}
+.circle{
+	width: 8px;
+	height: 8px;
+	border-radius: 50px;
+	background: linear-gradient(270deg, #390059, #390059, black);
+}
+.song{
+	position: relative;
+	width: 60px;
+	height: 7px;
+	top: 6px;
+	left: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	background: #A69DA6;
+}
+.trac{
+	width: 100%;
+	height: 55%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	background: #807980;
+}
+.trac p{
+	position: relative;
+	top: -4.8px;
+	color: black;
+}
+.flash{
+	position: relative;
+	width: 10px;
+	height: 10px;
+	top: -2px;
+	left: 220px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: #E8E7D2;
+}
+.circle2{
+	width: 8px;
+	height: 8px;
+	border-radius: 50px;
+	background: linear-gradient(0deg, grey, #E6CCB3, grey);
+	
+}
+h1{
+	position: relative;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 14pt;
+	left: 113px;
+	color: #d5d5d5;
+}
+/* screen começa aqui */
+.screen{
+	position: absolute;
+	width: 280px;
+	height: 430px;
+	background: #0A0A0A;
+	/*you can use this BG, its more beautiful but static, background: linear-gradient(210deg, #103373, #34a4bb, #588eee); */
+	transition: background-color 1s ease-out;
+}
+.screen h2{
+	transform: rotateY(60deg);
+}
+.screen:hover{
+	background: linear-gradient(210deg, #103373, #34a4bb, #588eee);
+}
+/* screen termina aqui */
+.EcimaB{
+	position: absolute;
+	width: 20px;
+	height: 3px;
+	margin-top: 242px;
+	margin-left: -80px;
+	background: #d5d5d5;
+}
+.EbaixoB{
+	position: absolute;
+	width: 20px;
+	height: 3px;
+	margin-top: 247px;
+	margin-left: -80px;
+	background: #d5d5d5;
+}	
+.mainB{
+	position: absolute;
+	width: 60px;
+	height: 17px;
+	margin-left: 2px;
+	margin-top: 245px;
+	border: 2px solid white;
+	border-radius: 30px;
+	background: black;
+}
+.Dbuttom{
+	position: absolute;
+	width: 20px;
+	height: 6px;
+	margin-top: 245.5px;
+	margin-left: 80px;
+	background: #d5d5d5;
+}
+      </style>
+	</head>
+	<body>
+		<div class="upsom">
+		</div>
+		<div class="downsom">
+		</div>
+		<div class="offb">
+		</div>
+		<div class="a1">
+			<div class="a2">
+				<div class="a3">
+					<div class="cam">
+						<div class="circle">
+						</div>
+					</div>
+					<div class="song">
+						<div class="trac">
+							<p>. . . . . . .</p>
+						</div>
+					</div>
+					<div class="flash">
+						<div class="circle2">
+						</div>
+					</div>
+						<h1>S A M S U N G</h1>
+				</div>
+					<div class="screen">
+						
+					</div>
+				<div class="EcimaB">
+				</div>
+				<div class="EbaixoB">
+				</div>
+				<div class="mainB">
+				</div>
+				<div class="Dbuttom">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
