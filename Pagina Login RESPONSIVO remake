@@ -1,0 +1,51 @@
+<!-- precisa do aquivo css referente(remake RESPONSIVO login/sign up) 
+a essa página para poder funcionar -->
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Load page REMAKE</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styleREMAKE.css">
+	</head>
+<!-- template: Patrick Lucas M
+twitter: @BuilderLuca
+Site: acheiquesabiajogar.top -->
+	<body>
+		<div id="boxlogin">
+			<div class="bordred">
+				<div class="circle">
+				</div>
+				<div class="circle">
+				</div>
+				<div class="circle">
+				</div>
+				<h1>LOGIN</h1>
+			</div>
+			<h2>EMAIL</h2>
+			<input type="text">
+			<h2>PASSWORD</h2>
+			<input type="password">
+				<a href="#"><h4>sign in</h4></a>
+			<div class="buttons">
+				<a href="#"><h3 class="pass">lost password</h3></a>
+				<a href="cadastroREMAKE.html"><h3>sign up</h3></a>
+			</div>
+		</div>
+		<footer>
+			<div class="boxup">
+				<p>ATENDIMENTO 0000-0000</p>
+				<ul>
+					<li><a href="#">TERMOS</a></li>
+					<li><a href="#">SUPORTE</a></li>
+					<li><a href="#">SOBRE NÓS</a></li>
+				</ul>
+				<span class="empresa"><p>&copy 2020 NOME DA SUA EMPRESA</p></span>
+			</div>
+			<div class="boxbottom">
+					<p>NOME DA EMPRESA / CNPJ:00.000.000/0000-00 / ENDEREÇO / EMAIL@EMPRESA.COM</p>
+					<p><a href="#" style="color: white;">Mapa do site</a></p>
+				</div>
+		</footer>
+	</body>
+</html>
