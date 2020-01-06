@@ -1,0 +1,48 @@
+<!-- precisa do aquivo css referente(remake RESPONSIVO login/sign up) 
+a essa página para poder funcionar -->
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Cadastro page REMAKE</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styleREMAKE.css">
+	</head>
+	<body>
+		<div id="cadastro">
+				<div class="boxsignup">
+					<div class="bordred">
+					<div class="circle">
+					</div>
+					<h1 class="account">MAKE YOUR ACCOUNT</h1>
+					<div class="circle">
+					</div>
+				</div>
+				<h2>BIRTH DATE</h2>
+				<input type="date">
+				<h2>NICK NAME</h2>
+				<input type="text">
+				<h2>EMAIL</h2>
+				<input type="email">
+				<h2>PASSWORD</h2>
+				<input type="password">
+				<a href="#"><h4>signup</h4></a>
+			</div>
+		</div>
+		<footer>
+			<div class="boxup">
+				<p>ATENDIMENTO 0000-0000</p>
+				<ul>
+					<li><a href="#">TERMOS</a></li>
+					<li><a href="#">SUPORTE</a></li>
+					<li><a href="#">SOBRE NÓS</a></li>
+				</ul>
+				<span class="empresa"><p>&copy 2020 NOME DA SUA EMPRESA</p></span>
+			</div>
+			<div class="boxbottom">
+					<p>NOME DA EMPRESA / CNPJ:00.000.000/0000-00 / ENDEREÇO / EMAIL@EMPRESA.COM</p>
+					<p><a href="#" style="color: white;">Mapa do site</a></p>
+				</div>
+		</footer>
+	</body>
+</html>
