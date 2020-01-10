@@ -1,0 +1,127 @@
+<style>
+  	.logo{
+		top: -60px;
+		left: 25px;
+		width: 100px;
+		height: 100px;
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		background: black;
+	}
+	.corverde{
+		width: 45px;
+		height: 60px;
+		background: #97EB68;
+	}
+	.coramarela{
+		width: 55px;
+		height: 60px;
+		background: #FFE037;
+	}
+	.corvermelha{
+		width: 55px;
+		height: 40px;
+		background: #EB1E18;
+	}
+	.corazul{
+		width: 45px;
+		height: 50px;
+		margin-top: -36px;
+		border-radius: 40px 0 0;
+		background: #5F97FF;
+	}
+	.pata{
+		width: 50px;
+		height: 50px;
+		margin-top: -100%;
+		display: flex;
+	}
+	.pesquerda{
+		width: 15px;
+		height: 15px;
+		margin: 40px 10px 0;
+		border-radius: 100px 70px 70px;
+		background: #FFFFFC;
+	}
+	.pmeio{
+		width: 25px;
+		height: 25px;
+		margin-top: 15px;
+		margin-left: -5px;
+		transform: rotate(-10deg);
+		border-radius: 30px 15px 30px;
+		background: #FFFFFC;
+	}
+	.pmeio2{
+		width: 25px;
+		height: 25px;
+		margin-top: 20px;
+		transform: rotate(-10deg);
+		border-radius: 40px 20px 40px;
+		background: #FFFFFC;
+	}
+	.pdireita{
+		width: 25px;
+		height: 20px;
+		margin-top: 40px;
+		margin-left: -10px;
+		transform: rotate(-40deg);
+		border-radius: 40px 20px 50px;
+		background: #FFFFFC;
+	}
+	.heart{
+		position: relative;
+		width: 30px;
+		height: 32px;
+		margin: 50px -60px 0;
+		transform: rotate(-30deg);
+		border-radius: 0 0 5px;
+		background: #FFFFFC;
+	}
+	.bolaE{
+		position: relative;
+		width: 30px;
+		height: 30px;
+		margin-top: -1px;
+		margin-left: -15px;
+		border-radius: 50px;
+		background: #FFFFFC;
+	}
+	.bolaD{
+		position: relative;
+		width: 30px;
+		height: 30px;
+		margin-top: -15px;
+		border-radius: 50px;
+		background: #FFFFFC;
+	}
+</style>
+<body>
+  <div class="logo">
+				<div class="corverde">
+				</div>
+				<div class="coramarela">
+				</div>
+				<div class="corvermelha">
+				</div>
+				<div class="corazul">
+				</div>
+					<div class="pata">
+						<div class="pesquerda">
+						</div>
+						<div class="pmeio">
+						</div>
+						<div class="pmeio2">
+						</div>
+						<div class="pdireita">
+						</div>
+						<div class="heart">
+							<div class="bolaE">
+							</div>
+							<div class="bolaD">
+							</div>
+						</div>
+					</div>
+			</div>
+</body
