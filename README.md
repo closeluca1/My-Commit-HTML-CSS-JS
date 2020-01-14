@@ -1,2 +1,2 @@
 # My-Commit-HTML-CSS-JS
-Practicing is that one learns; I wanna be a front-end developer. (:
+Practicing is the only way tolearns; I wanna be a front-end developer. (:
