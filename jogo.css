@@ -1,0 +1,33 @@
+@charset UTF-8;
+.jogo{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+	background: green;
+}
+.caixamaior{
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 1px solid black;
+}
+.area1,.area2,.area3,.area4,.area5,.area6,.area7,.area8,.area9{
+	width: 130px;
+	height: 130px;
+	min-width: 130px;
+	min-height: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.6px;
+	border: 1px solid black;
+	background: orange;
+}
+.area1:hover,.area2:hover,.area3:hover,.area4:hover,.area5:hover,.area6:hover,.area7:hover,.area8:hover,.area9:hover{
+	cursor: pointer !important;
+	background: white !important;
+}
