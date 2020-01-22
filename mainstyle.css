@@ -1,0 +1,140 @@
+@charset UTF-8;
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: url(bg.png) center top / cover no-repeat scroll;
+}
+.menumain{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	border-bottom: 1px solid white;
+	background: linear-gradient(grey, black); /* mudar essa cor quando tiver o fundo */
+}
+/* alinhar as opções de menu dentro dos 800px width*/
+.fundoprincipal{
+	width: 830px;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	background: black;
+}
+.container{
+	min-width: 500px;
+	height: 768px;
+	max-height: auto;
+	margin-top: 55px;
+	background: #696969;
+}
+.conteudo{
+	margin: 20px 10px 10px;
+}
+aside{
+	min-width: 150px;
+	height: 550px;
+	max-height: auto;
+	margin-top: 55px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	border: 1px solid grey;
+	background: #696969;
+}
+.asideleft{
+	margin-right: 5px;
+	padding-top: 5px;
+}
+.asideright{
+	align-items: center;
+	margin-left: 5px;
+	padding-top: 5px;
+}
+.optionslugares{
+	width: 150px;
+	height: 50px;
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background: #696969; /* orange */
+}
+.optionslugares:hover{
+	cursor: pointer;
+	background: #ffffff;
+	opacity: 0.9;
+}
+.optionsitens{
+	max-width: 145px;
+	max-height: 45px;
+	display: flex;
+	word-spacing: 1px;
+	text-align: left;
+}
+.optionslegenda{
+	margin-left: 5px;
+	margin-right: 10px;
+}
+.perfiljogador{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.imgperfil{
+	width: 35px;
+	height: 70px;
+}
+.sobre{
+	width: 105px;
+	height: auto;
+	color: white;
+	font-size: 8pt;
+	display: flex;
+	flex-direction: column;
+	padding-left: 5px;
+}
+.estaminavicio{
+	width: 100%;
+	height: 50px;
+	color: white;
+	font-size: 8pt;
+	display: flex;
+	text-align: center;
+	padding-top: 10px;
+	flex-direction: column;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+.statusjogador{
+	width: 125px;
+	height: auto;
+	color: white;
+	font-size: 8pt;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	text-align: center;
+}
+.estatisticas{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	color: white;
+	font-size: 8pt;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+footer{
+	width: 100%;
+	height: 300px;
+	background: black;
+}

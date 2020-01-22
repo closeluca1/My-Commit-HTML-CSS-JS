@@ -1,0 +1,3 @@
+perfil = perfil do jogador
+
+ITL = Iconis, Titulos, Legendas

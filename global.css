@@ -1,0 +1,16 @@
+@charset UTF-8;
+h5{
+	color: #ffffff !important;
+	font-family: 'Roboto', sans-serif;
+}
+h6{
+	opacity: 0.3;
+	color: #ffffff !important;
+	font-family: 'Roboto', sans-serif;
+}
+.optionslugares:hover h5{
+	color: #000000 !important;
+}
+.optionslugares:hover h6{
+	color: #000000 !important;
+}
