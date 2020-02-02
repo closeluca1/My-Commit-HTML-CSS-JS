@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	<title>dropmenu com js</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <script src="escripto.js"></script>
+	<link rel="stylesheet" href="estilo.css"> -->
+	<script>
+function takeallf(){
+	coresper();
+};
+
+	var cores = ["#f2f2f2", "#FFFF00", "#FFD700", "#FFA500", "#FF4500", "#FF0000", "#000000", "#8A2BE2", "#4B0082", "#4169E1", "#0000FF", "#228B22"];
+function coresper(){
+	var c2 = cores.slice(1,2)
+	document.getElementById("c2").style.backgroundColor = c2;
+	var c3 = cores.slice(2,3)
+	document.getElementById("c3").style.backgroundColor = c3;
+	var c4 = cores.slice(3,4)
+	document.getElementById("c4").style.backgroundColor = c4;
+	var c5 = cores.slice(4,5)
+	document.getElementById("c5").style.backgroundColor = c5;
+	var c6 = cores.slice(5,6)
+	document.getElementById("c6").style.backgroundColor = c6;
+	var c7 = cores.slice(6,7)
+	document.getElementById("c7").style.backgroundColor = c7;
+	var c8 = cores.slice(7,8)
+	document.getElementById("c8").style.backgroundColor = c8;
+	var c9 = cores.slice(8,9)
+	document.getElementById("c9").style.backgroundColor = c9;
+	var c10 = cores.slice(9,10)
+	document.getElementById("c10").style.backgroundColor = c10;
+	var c11 = cores.slice(10,11)
+	document.getElementById("c11").style.backgroundColor = c11;
+	var c12 = cores.slice(11,12)
+	document.getElementById("c12").style.backgroundColor = c12;
+};
+
+function othercolor(){
+	var newcolor = document.getElementById("newcolorid").value;
+	document.getElementById("c13").style.backgroundColor = newcolor;
+};
+
+function getc1(){
+	var c1 = cores.slice(0,1)
+	document.getElementById("c14").style.backgroundColor = c1;
+};
+
+function getc2(){
+	var c2 = cores.slice(1,2)
+	document.getElementById("c14").style.backgroundColor = c2;
+};
+
+function getc3(){
+	var c3 = cores.slice(2,3)
+	document.getElementById("c14").style.backgroundColor = c3;
+};
+
+function getc4(){
+	var c4 = cores.slice(3,4)
+	document.getElementById("c14").style.backgroundColor = c4;
+};
+
+function getc5(){
+	var c5 = cores.slice(5,6)
+	document.getElementById("c14").style.backgroundColor = c5;
+};
+
+function getc6(){
+	var c6 = cores.slice(5,6)
+	document.getElementById("c14").style.backgroundColor = c6;
+};
+
+function getc7(){
+	var c7 = cores.slice(6,7)
+	document.getElementById("c14").style.backgroundColor = c7;
+};
+
+function getc8(){
+	var c8 = cores.slice(7,8)
+	document.getElementById("c14").style.backgroundColor = c8;
+};
+
+function getc9(){
+	var c9 = cores.slice(8,9)
+	document.getElementById("c14").style.backgroundColor = c9;
+};
+
+function getc10(){
+	var c10 = cores.slice(9,10)
+	document.getElementById("c14").style.backgroundColor = c10;
+};
+
+function getc11(){
+	var c11 = cores.slice(10,11)
+	document.getElementById("c14").style.backgroundColor = c11;
+};
+
+function getc12(){
+	var c12 = cores.slice(11,12)
+	document.getElementById("c14").style.backgroundColor = c12;
+};
+
+function getc13(){
+	var newcolor = document.getElementById("newcolorid").value;
+	document.getElementById("c14").style.backgroundColor = newcolor;
+};
+
+	</script>
+	<style>
+@charset UTF-8;
+/*@media (max-width: 800px){ */
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		width: 100%;
+		height: 100%;
+		background: #B0C4DE;
+	}
+	main{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+/*} */
+.novoestilo{
+	width: 270px;
+	min-width: 270px;
+	height: auto;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+input{
+	width: 60px;
+	padding: 10px;
+}
+span{
+	font-size: 10pt;
+	/*font-family: monospace; */
+	padding: 10px;
+	border: 2px solid #ffffff;
+}
+span:hover{
+	cursor: pointer;
+}
+.allcores{
+	width: 280px;
+	min-width: 280px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.cor{
+	width: 32px;
+	height: 32px;
+	margin: 6px;
+	background: #f2f2f2;
+}
+#c13{
+	background: #ffffff;
+}
+.todososblocos{
+	width: 280px;
+	min-width: 280px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.blocos{
+	width: 16px;
+	height: 16px;
+	border: 0.5px solid #000000;
+	background: #ffffff
+}
+	</style>
+	</head>
+	<body onload="takeallf()">
+		<div class="container">
+			<main>
+				<div class="allcores">
+					<div class="cor" id="c1" onclick="getc1()"></div>
+					<div class="cor" id="c2" onclick="getc2()"></div>
+					<div class="cor" id="c3" onclick="getc3()"></div>
+					<div class="cor" id="c4" onclick="getc4()"></div>
+					<div class="cor" id="c5" onclick="getc5()"></div>
+					<div class="cor" id="c6" onclick="getc6()"></div>
+					<div class="cor" id="c7" onclick="getc7()"></div>
+					<div class="cor" id="c8" onclick="getc8()"></div>
+					<div class="cor" id="c9" onclick="getc9()"></div>
+					<div class="cor" id="c10" onclick="getc10()"></div>
+					<div class="cor" id="c11" onclick="getc11()"></div>
+					<div class="cor" id="c12" onclick="getc12()"></div>
+				</div>
+				<div class="novoestilo">
+					<div class="cor" id="c13" onclick="getc13()"></div>
+					<input id="newcolorid" type="text" maxlength="7" value="#">
+					<span onclick="othercolor()">PUT</span>
+				</div>
+				
+				<div class="selectedcolor">
+					<div class="cor" id="c14"></div>
+					<h5>color selected</h5>
+				</div>
+			</main>
+		</div>
+	</body>
+<html>
