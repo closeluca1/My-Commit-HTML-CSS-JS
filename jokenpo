@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>pagina padrão</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="descrição-da-sua-página">
+		<meta name="robots" content="NOME-DA-PAGINA, follow">
+        <meta name="author" content=" ">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+<script> 
+var youcard = [1, 2, 3];
+
+var randomvalue = youcard[Math.floor(Math.random() * youcard.length)];
+var randomvalue2 = youcard[Math.floor(Math.random() * youcard.length)];
+
+var valor = randomvalue;
+var valor2 = randomvalue2;
+
+function youchoose(){
+    document.getElementById("younamecard").innerHTML = randomvalue;
+
+    document.getElementById("pcnamecard").innerHTML = randomvalue2;
+
+    if(valor < valor2){
+        document.getElementById("sobre").innerHTML = "pc win";
+    }else if(valor > valor2){
+        document.getElementById("sobre").innerHTML = "you win";
+    }else if(valor == valor2){
+        document.getElementById("sobre").innerHTML = "nobody won";
+    };
+
+};
+</script>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f2f2f2;
+}
+@media (min-width: 800px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .align-content{
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header, main, footer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    header{
+        height: 50px;
+        background: #B3B3B3;
+        border-bottom: 1px solid #999da6;
+    }
+    main{
+        height: auto;
+        min-height: 768px;
+    }
+    footer{
+        height: 250px;
+        background: #B3B3B3;
+        border-top: 1px solid #999da6;
+    }
+}
+
+.wplayer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.dashboard{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;    
+}
+.box-card{
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000000;
+}
+    </style>
+    <body>
+        <div class="container">
+            <header>
+                <div class="align-content">
+                
+                </div>
+            </header>
+            <main>
+                <div class="align-content">
+                    <div class="wplayer"> 
+                        <h2>pc</h2>
+                        <h2>you</h2>
+                    </div>
+                    <div class="dashboard">
+                        <div class="box-card"> 
+                            <span id="pcnamecard"></span>
+                        </div>
+                        <span id="sobre"></span>
+                        <div class="box-card"> 
+                            <span id="younamecard"></span>
+                        </div>
+                    </div>
+                    <button onclick="youchoose()">choose your card</button>
+                </div>
+            </main>
+            <footer>
+                <div class="align-content">
+                    
+                </div>
+            </footer>
+            </div>
+        <script src="escripto.js"></script>
+    </body>
+</html>
