@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>pagina padrão</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="descrição-da-sua-página">
+		<meta name="robots" content="NOME-DA-PAGINA, follow">
+        <meta name="author" content=" ">
+        <style> 
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f2f2f2;
+}
+@media (min-width: 320px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .align-content{
+        width: 800px;
+        background: yellow;
+    }
+    header{
+        height: 50px;
+        background: #B3B3B3;
+        border-bottom: 1px solid #999da6;
+    }
+    main{
+        width: 100%;
+        height: auto;
+        
+    }
+}
+
+        </style>
+    <script> 
+var loadgame = "";
+
+var autoload = "";
+
+function savegame(){
+    localStorage.setItem("itemsalvo", item.value);
+};
+
+function loadgamea(){
+    loadgame = localStorage.getItem("itemsalvo");
+    document.getElementById("resposta").innerHTML = loadgame;
+
+    if (localStorage.key("itemsalvo") == null){
+        document.getElementById("resposta").innerHTML = "0";
+    };
+};
+
+var meuspontos = parseInt("0");
+
+function adicionarpontos(){
+    meuspontos = meuspontos + 1;
+    document.getElementById("meuspontos").innerHTML = meuspontos;
+};
+
+    </script>
+    </head>
+    <body onload="loadgamea()">
+        <div class="container">
+            <header>
+                <div class="align-content">
+                
+                </div>
+            </header>
+            <main>
+                <input id="item">
+                <br>
+                <button id="save" onclick="savegame()">click para salvar</button>
+                <br>
+                <button id="load" onclick="loadgamea()">click para recuperar</button>
+                <br>
+                <span id="resposta"></span>
+                <span id="respostavalue"></span>
+                <br>
+                <button onclick="adicionarpontos()">clcik para adicionar pontospontos</button>
+                <br><br>
+                <span id="meuspontos"></span>                
+            </main>
+            <footer>
+                
+            </footer>
+            </div>
+    </body>
+</html>
